@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>textures/minecraft_normals_all.png</file>
+        <file>textures/minecraft_textures_all_grey_grass.png</file>
+        <file>textures/minecraft_textures_all.png</file>
+        <file>textures/test.png</file>
+        <file>textures/dirt.png</file>
+        <file>textures/grass.png</file>
+        <file>textures/ice.png</file>
+        <file>textures/leaf.png</file>
+        <file>textures/sand.png</file>
+        <file>textures/snow.png</file>
+        <file>textures/stone.png</file>
+        <file>textures/wood.png</file>
+    </qresource>
+</RCC>

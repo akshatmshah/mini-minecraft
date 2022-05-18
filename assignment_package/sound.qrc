@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>walk.mp3</file>
+        <file>swim.wav</file>
+    </qresource>
+</RCC>

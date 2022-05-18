@@ -1,0 +1,180 @@
+Milestone 1
+
+DAVID - TERRAIN GENERATION:
+
+March 27 3:00 PM
+https://stackoverflow.com/questions/28889210/smoothstep-function
+
+March 29 4:00 PM
+Went to OH for help with blending the heights of the biomes
+
+April 1 3:30PM
+Went to OH for help with making the grasslands flatter
+
+--------------------------------------------------------------------------------------
+AKSHAT - CHUNKING:
+
+March 27 5:02 PM
+Q: How should I go about having the position and normal data for a direction?
+A: Used a struct  -- got help from TA
+
+March 28 1:51AM 
+Q: Why am I getting some accessing error whenever I use getBlockAt
+A: Need to just make it return empty if it isn't within the bounds
+
+March 28 4:22PM 
+Q: Why isn't my chunks rendering :(
+A: I used a 1 instead of a 0 for my w value for the current block in the chunk -- got help from TA
+
+March 29 12:56 PM 
+Q: Chunk origin isn't being found and it is messed up
+A : Wasn't doing relative to world position and used the wrong equation lol
+
+March 29 3:50PM 
+Q: Why aren't my colors updating in the VBO
+A: Offset was wrong and didn't update the Lambert shader -- got help from TA
+
+March 29 10:11 PM 
+Q: I can't see enough of a region to help check procedural terrain
+A: I just needed to increase the range in render terrain lol
+
+--------------------------------------------------------------------------------------
+CLAIRE - PLAYER PHYSICS:
+
+3/30
+Q: Player not colliding into wall with only head level block
+A: grid marching at exact points of vertices might cause ray to skid across block and doesn’t register as collision
+
+3/30
+Q: Jump gets stuck in midair
+A: Need to have a case where if collision mid jump, should slide down block back to ground
+
+3/31
+Discussed with Will Cai about jump logic 
+ 
+3/31
+Ivec3 vs vec3
+https://thebookofshaders.com/glossary/?search=ivec3
+
+3/31
+Q: Place and remove block not working on merged code
+A: Need to connect with function in chunking that creates VBO 
+
+
+Milestone 2
+
+DAVID - Cave Systems
+
+April 8 12:00 PM
+Went to OH for help with with resizing bug with post-process shader
+
+--------------------------------------------------------------------------------------
+
+CLAIRE - Texture and Texture Animation
+
+4/8
+Q: Forgot how to load textures
+A: Looked at hw4, made texture 
+
+4/8
+Q: Program crashes after using split up VBOs for opaque and transparent at glDrawElements
+A: was using GL_ELEMENT_ARRAY_BUFFER instead of GL_ARRAY_BUFFER
+ 
+4/9
+Q: Water and Lava animations look weird, some timing issue?
+A: Selected the wrong texture indices from texture file
+
+---------------------------------------------------------------------------------------
+
+AKSHAT - Multithreaded Terrain Generation:
+
+April 7 12:41 AM 
+Q: Why am I getting a error about chunk classes when creating the struct?
+A: Needed to add class Chunk; because it wasn't recognized.
+
+April 9 2:29 PM 
+Q: Random crashes???
+A: Need to make idxTrans and idxOpaq = 0 
+
+April 10 5:34 PM 
+Q: Error when trying to instantiate chunks
+A : Need to make sure the zone was a multiple of 64 oops
+
+April 10 7:10 PM 
+Q: How do I get my neighbors to reload?
+A: I need to create a generated flag and then check for this when looking at neighbors.
+
+April 11 10:11 PM 
+Q: Why am I getting an out of range error for createChunk in chunk.cpp?
+A: The setblockat is different in the chunk.cpp so had to change pos
+
+--------------------------------------------------------------------------------------------------
+AKSHAT - Milestone 3
+
+April 20 1:49 AM 
+Q: How should I go about associating functions with the string?
+A: Use a map that maps the string to the function -- HELP IN OH
+
+April 20 1:30 PM 
+Q: Why is only the first axiom used?
+A: I made my loop go use the outer loop instead of the inner loop lol
+
+April 23 5:34 PM 
+Q: Why isn't my function carving like it is supposed to?
+A : My equations were wrong lol  -- HELPED IN OH
+
+April 23 6:15 PM 
+Q: What should I do for the noise function?
+A: Looked at shader toy homework
+
+April 23 9:14 PM 
+Q: Why is my sky acting like an overlay
+A: Needed to add extra 9 to Z values to make it so it was in the back.
+
+April 23 11:20 PM
+Q: Why isn't my transition between the palettes not smooth enough?
+A: David said use a smooth function bruh
+
+April 24 10:47 AM 
+Q: Why isn't the water waves reflecting properly?
+A: Normal function wrong
+
+April 24 3:34 PM 
+Q: Error when trying to instantiate chunks
+A : Need to make sure the zone was a multiple of 64 oops
+
+April 24 7:29 PM 
+Q: How can I make my smooth step better?
+A: I used the graph toy that we used in class to get a better visualization
+
+April 25 9:11 PM 
+Q: Is there a better placement for the createRivers function? Makes program lag alot.
+A: TA said it rivers looks fine and can just comment it out after showing it once, not expecting gods creation. :DDDD
+
+April 26 12:11 AM 
+Q: Why am I getting an array out of range error?
+A: Was using values that weren't in the struct so when it researched for it there was nothing.
+
+April 26 3:29 AM
+Q: Why are the blocks overlapping when I offset the position.
+A: Duplicate faces with the same postion offset, just removed the duplicates
+
+CLAIRE MILESTONE 3
+-------------------
+4/20
+q: why do some of the radio buttons in my inventory not work
+a: placement on the GUI
+
+4/22
+Q: why does my place block sometimes place blocks in places I can’t see
+a: destroy/create VBO data
+
+4/25
+q: why wont my sound work after I updated the pro file
+a: qsound is outdated, tried using qsoundeffect, couldn’t get to work either
+
+
+DAVID MILESTONE 3
+------------------
+4/24
+OH for floating islands

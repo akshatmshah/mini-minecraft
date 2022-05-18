@@ -1,0 +1,17 @@
+# 3ds Max Wavefront OBJ Exporter v0.99 - (c)2007 guruware
+# File Created: 26.04.2022 05:40:01
+
+newmtl Bee_MAT
+	Kd 0.9301 0.9301 0.9301
+	Ks 0.0000 0.0000 0.0000
+	Tr 0.0000
+	d 1.0000
+	Tf 0.0000 0.0000 0.0000
+	Pr 0.0000
+	Pm 0.0000
+	Pc 0.0000
+	Pcr 0.0000
+	Ni 1.5200
+	Ke 0.0000 0.0000 0.0000
+	illum 2
+	map_Kd C:\Users\david\Downloads\minecraft-bee\source\MinecraftBee.fbm\BeePixel.png
