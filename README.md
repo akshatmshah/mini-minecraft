@@ -2,15 +2,12 @@
 
 Milestone 1
 video: https://youtu.be/qpxpv06STD4
-commit link: https://github.com/CIS460-Spring-2022/mini-minecraft-bishop-sycamore/commit/9afe4bac386da6f0c0d088c035bac192a3df5c5d
 
 Milestone 2
 video: https://youtu.be/1fxtWB2Jf3o
-commit link: https://github.com/CIS460-Spring-2022/mini-minecraft-bishop-sycamore/commit/c5f2a730196afd1142607e62e6bac29bc1140858
 
 Milestone 3
 video: https://youtu.be/BLmY7efIDSs
-commit link: https://github.com/CIS460-Spring-2022/mini-minecraft-bishop-sycamore/commit/35139d25632ceedfc1bb977415f6e80cf007618e
 
 ## Milestone 1
 
